@@ -36,8 +36,8 @@ a{
 }
 
 .container{
-    width: 1170px;
-    padding: 0px 15px;
+    width: 100%;
+    padding: 0px 0px;
     margin: 0 auto;
 }
 
