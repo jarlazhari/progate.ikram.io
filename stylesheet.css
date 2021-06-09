@@ -10,12 +10,12 @@ header{
 	z-index:10;
 	
   }
-  .header-logo{
+   .header-logo{
     font-size:36px;
     font-family: monaci;
     float:left;
     padding:20px 40px;
-    color:#F8EFBA;
+     color:#F8EFBA;
      }
   
   
@@ -26,6 +26,14 @@ header{
      padding:33px 20px;
      list-style:none;
    }
+   
+   .menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
 
 
 body {
@@ -39,6 +47,7 @@ a{
 }
 
 .container{
+	max-width:1170px;
     width: 100%;
     padding: 0px 0px;
     margin: 0 auto;
@@ -46,8 +55,7 @@ a{
 
 .top-wrapper {
     padding: 180px 0px 100px 0;
-    background-image: url(https://elqurtubhi.000webhostapp.com/bg1.jpg);;
-    /* opacity: 0.75; */
+    background-image: url(https://elqurtubhi.000webhostapp.com/bg1.jpg);
     background-size: cover;
     color: white;
     text-align: center;
@@ -192,18 +200,61 @@ footer {
 }
 
 @media (max-width: 1000px) {
-  .lesson{
-    width:50%;
-    
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  
+   .top-wrapper h1 {
+    font-size:32px;
+  }
+
+  .heading h2{
+    font-size:20px;
   }
 }
 
 @media (max-width:670px) {
+  
   .lesson{
     width:100%;
   }
    footer{
     text-align:center;
   }
+  
+  .btn {
+    width: 100%;
+	margin:10px;
+  }
+  
+  .facebook {
+    margin-bottom:10px;
+  }
+  
+  .top-wrapper{
+    padding-top:130px;
+  }
+  
+  .top-wrapper h1 {
+    font-size:24px;
+    line-height:36px;
+  }
+
+   .top-wrapper p{
+     font-size:14px;
+    line-height:20px;
+  }
+  
+  .header-list{
+    display:none;
+  }
+  
+  .menu-icon{
+    display:block;
+  }
 }
+
+
 
